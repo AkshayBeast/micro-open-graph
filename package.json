@@ -7,7 +7,7 @@
     "start": "micro",
     "dev": "micro-dev",
     "test": "standard",
-    "build": ""
+    "build": "micro"
   },
   "repository": {
     "type": "git",
