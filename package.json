@@ -7,7 +7,7 @@
     "start": "micro",
     "dev": "micro-dev",
     "test": "standard",
-    "build": "npm --version"
+    "build": "mkdir public"
   },
   "repository": {
     "type": "git",
