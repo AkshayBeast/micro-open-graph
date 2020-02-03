@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "builds": [{ "src": "index.js", "use": "npm start" }],
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
   "routes": [
     {
-      "src": "/meta",
+      "src": "/",
       "dest": "/index.js",
       "methods": ["GET"]
     }
