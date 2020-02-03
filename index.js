@@ -46,7 +46,7 @@ module.exports = async (req, res) => {
   
 	cache.put(url, data, TWENTY_FOUR_HOURS)
 
-  return await send(res,statusCode, data)
+  return send(res,statusCode, data)
   // Cache results for 24 hours
   
 }
