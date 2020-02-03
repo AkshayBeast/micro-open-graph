@@ -44,7 +44,7 @@ module.exports = async (req, res) => {
     data = { message: `Scraping the open graph data from "${url}" failed.`, suggestion: 'Make sure your URL is correct and the webpage has open graph data, meta tags or twitter card data.' }
   }
 
-  send(res, statusCode, data)
+  res.send(statusCode, data)
   // Cache results for 24 hours
   cache.put(url, data, TWENTY_FOUR_HOURS)
 }
