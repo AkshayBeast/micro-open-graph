@@ -6,8 +6,7 @@
   "scripts": {
     "start": "micro",
     "dev": "micro-dev",
-    "test": "standard",
-    "build": "npm --version"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
