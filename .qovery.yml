@@ -1,0 +1,11 @@
+---
+application:
+  name: "micro-open-graph"
+  project: "meta"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-micro-open-graph"
+  routes:
+  - application_name: "micro-open-graph"
+    paths:
+    - "/*"
